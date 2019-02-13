@@ -1,0 +1,50 @@
+page-tutorial {
+  .toolbar-background {
+    background: transparent;
+    border-color: transparent;
+  }
+
+  .slide-zoom {
+    height: 100%;
+  }
+
+  .slide-title {
+    margin-top: 2.8rem;
+  }
+
+  .slide-image {
+    position: relative;
+    background-size: cover;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .lets-go {
+    position: relative;
+    z-index: 2;
+    margin-top: -185px;
+    text-align: right;
+    color: white;
+  }
+
+  .lets-go-button {
+    font-size: 17px;
+  }
+
+  b {
+    font-weight: 500;
+  }
+
+  p {
+    padding: 0 40px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #60646B;
+
+    b {
+      color: #000000;
+    }
+  }
+
+}
